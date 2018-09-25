@@ -1,0 +1,47 @@
+<Fridge>
+	<Freezer>
+		<Ice-tray>
+			<Ice-cubes>
+		</Ice-tray>
+		<Drawer1>
+			<Chicken-breast>
+			<Shrimp>
+		</Drawer1>
+		<Drawer2>
+			<Raspberries>
+			<Blueberries>
+			<Broccolies>
+		</Drawer2>
+	</Freezer>
+	<Refrigerator>
+		<Top-shelf>
+			<Egg-tray>
+				<Eggs>
+			</Egg-tray>
+			<Pyrex-container>
+				<Left-over-meal>
+			</Pyrex-container>
+			<Carrots>
+		</Top-shelf>
+		<Bottom-shelf>
+			<Salad-mix>
+			<Plastic-bag>
+				<Avocados>
+				<Tomatoes>
+			</Plastic-bag>
+		</Bottom-shelf>
+		<Left-drawer>
+		<Right-drawer>
+			<Apples>
+			<Peaches>
+			<Grapes>
+		</Right-drawer>
+		<Door-shelf>
+			<Soymilk>
+			<Cold-brew-concentrate>
+			<Yogurt>
+			<Provolon-cheese>
+		</Door-shelf>
+	</Refrigerator>
+
+</Fridge>
