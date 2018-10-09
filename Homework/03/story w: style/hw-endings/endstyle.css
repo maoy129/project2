@@ -1,0 +1,27 @@
+body{
+	background-color:brown;
+	text-align:center;
+	color:white;
+	font-family:"Futura";
+}
+h1{
+	background-color:white;
+	color:brown;
+	font-style:bold;
+	text-decoration:underline;
+	padding:100px;
+}
+h2{
+	font-style:italic;
+}
+#option{
+	color:white;
+}
+#option:hover{
+	background-color:white;
+	color:brown;
+}
+#option::active{
+	background-color:white;
+	color:brown;
+}
