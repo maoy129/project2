@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Josef Albers Interaction with Colors</title>
+<style>
+html,body{
+	margin:0;
+	height:100%;
+}
+@keyframes colorchange{
+	50%{
+		background-color:#619296;
+	}
+	100%{
+		background-color:#865c24;
+	}
+
+}
+@keyframes twirl{
+	50%{
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: initial;
+	}
+
+}
+#blue{
+	height:50vmin;
+	width:50vmin;
+	background-color:#619296;
+	display:inline-block;
+	margin:0;
+	float:left;
+	animation:colorchange 2s infinite;
+}
+#brown{
+	height:50vmin;
+	width:50vmin;
+	background-color:#865c24;
+	display:inline-block;
+	margin:0;
+	float:left;
+	animation:colorchange 2s infinite;
+	animation-delay: 1s;
+}
+#smbrown1{
+	position:absolute;
+	top:17vmin;
+	left:17vmin;
+	height:15vmin;
+	width:15vmin;
+	background-color:#9a6600;
+	animation:twirl 2s infinite;
+}
+#smbrown2{
+	position:absolute;
+	top:17vmin;
+	left:67vmin;
+	height:15vmin;
+	width:15vmin;
+	background-color:#9a6600;
+	animation:twirl 2s infinite;
+}
+</style>
+</head>
+<body>
+	<div id="blue"></div>
+	<div id="brown"></div>
+	<div id="smbrown1"></div>
+	<div id="smbrown2"></div>
+</body>
+</html>
