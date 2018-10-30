@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+html,body{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    font-family: consolas;
+}
+h1{
+    position:relative;
+    top:20%;
+    font-size: 5vmin;
+}
+#coin{
+    margin-left:15px;
+    margin-right:15px;
+    color:blue;
+}
+</style>
+</head>
+<body>
+    <h1>I will have</h1>
+    <h1 id="coin"></h1>
+    <h1 id="when"></h1>
+
+<script>
+
+var choices = [ "Coffee",
+    "Olives",
+    "Celery",
+    "Tea",
+    "Radishes",
+    "Mashed potatoes",
+    "Boiled potatoes",
+    "Fruit",
+    "Milk",
+    "Chicken salad",
+    "Vanilla ice cream",
+    "Cocoa",
+    "Cheese",
+    "Lettuce Salad",
+    "Lobster salad",
+    "Chocolate",
+    "String Beans",
+    "Apple Pie",
+    "Sardines",
+    "Oranges",
+    "Assorted cakes",
+    "French fried potatoes",
+    "Potato salad",
+    "Baked Potatoes",
+    "Stewed prunes",
+    "Roquefort",
+    "Ham",
+    "Roast beef",
+    "Apples",
+    "Chocolate Ice Cream",
+    "Stewed tomatoes",
+    "Bananas",
+    "Sliced Tomatoes",
+    "Cucumbers",
+    "Ice cream",
+    "Edam Cheese",
+    "Little Neck clams",
+    "Swiss cheese",
+    "Demi Tasse",
+    "Tomato Juice",
+    "Crackers",
+    "Spinach",
+    "Cream Cheese",
+    "Assorted Cake",
+    "Lettuce",
+    "Raisins",
+    "Sirloin Steak",
+    "Cauliflower",
+    "Grapes",
+    "Cup Custard",
+    "Petits fours",
+    "Ripe Olives",
+    "Demi-tasse",
+    "Orange",
+    "French peas",
+    "Consomme",
+    "Fruits",
+    "Buttermilk",
+    "Tomato Salad",
+    "Biscuit Tortoni",
+    "Boiled rice",
+    "Kaffee",
+    "Iced tea",
+    "Corned beef",
+    "Succotash",
+    "Charlotte Russe",
+    "Lobster Cocktail",
+    "Cucumber salad",
+    "Salted Almonds",
+    "Dessert",
+    "Benedictine",
+    "Cigarettes",
+    "Brussels Sprouts",
+    "Romaine Salad",
+    "Lyonnaise Potatoes",
+    "Marmalade",
+    "Dry Toast",
+    "Grape fruit",
+    "Apple Sauce",
+    "Club sandwich",
+    "French Pastry",
+    "Sweet Pickles",
+    "Cold Ham",
+    "Mince Pie",
+    "Coffee Ice Cream",
+    "Pears",
+    "Chicken Sandwich",
+    "Broiled Ham",
+    "Baked Apple",
+    "Ham Sandwich",
+    "Bread and Butter",
+    "Queen olives",
+    "Little Necks",
+    "Chow chow",
+    "Chicken",
+    "Cold roast beef",
+    "Milk toast",
+    "Watermelon",
+    "Macaroons",
+    "Lettuce and Tomato Salad",
+    "Fried Egg Plant",]
+
+var number = Math.random() * 100;
+
+var integer = parseInt(number);
+
+document.getElementById("coin").innerHTML = choices[integer];
+
+var choices = ["for lunch.","for breakfast.","for dinner."]
+
+var number = Math.random() * 3;
+
+var integer = parseInt(number);
+
+document.getElementById("when").innerHTML = choices[integer];
+
+</script>
+</body>
+</html>
